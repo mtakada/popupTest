@@ -7,21 +7,27 @@
 //
 
 #import "ViewController.h"
+#import "PopupViewController.h"
+#import "UIViewController+MJPopupViewController.h"
 
 @interface ViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ViewController :UIViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)openPopup:(id)sender {
+    PopupViewController *popupView = [[PopupViewController alloc] initWithNibName:@"sample" bundle:nil];
+    [self presentPopupViewController:popupView animationType:MJPopupViewAnimationFade];
 }
 
 @end

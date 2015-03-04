@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3CE05561AA70D6700841E21 /* ApvAdKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CE05551AA70D6700841E21 /* ApvAdKit.framework */; };
 		C3E3FFBD1A6DF57700BE9DF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E3FFBC1A6DF57700BE9DF9 /* main.m */; };
 		C3E3FFC01A6DF57700BE9DF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E3FFBF1A6DF57700BE9DF9 /* AppDelegate.m */; };
 		C3E3FFC31A6DF57700BE9DF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E3FFC21A6DF57700BE9DF9 /* ViewController.m */; };
@@ -14,6 +15,14 @@
 		C3E3FFC81A6DF57700BE9DF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E3FFC71A6DF57700BE9DF9 /* Images.xcassets */; };
 		C3E3FFCB1A6DF57700BE9DF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3E3FFC91A6DF57700BE9DF9 /* LaunchScreen.xib */; };
 		C3E3FFD71A6DF57800BE9DF9 /* popupTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E3FFD61A6DF57800BE9DF9 /* popupTestTests.m */; };
+		C3E3FFE41A6DF65F00BE9DF9 /* MJPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E3FFE11A6DF65F00BE9DF9 /* MJPopupBackgroundView.m */; };
+		C3E3FFE51A6DF65F00BE9DF9 /* UIViewController+MJPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E3FFE31A6DF65F00BE9DF9 /* UIViewController+MJPopupViewController.m */; };
+		C3E3FFE71A6DF6F200BE9DF9 /* sample.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3E3FFE61A6DF6F200BE9DF9 /* sample.xib */; };
+		C3E3FFE91A6DF79A00BE9DF9 /* PopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E3FFE81A6DF79A00BE9DF9 /* PopupViewController.m */; };
+		C3E3FFEC1A6DFD9000BE9DF9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E3FFEB1A6DFD9000BE9DF9 /* CoreTelephony.framework */; };
+		C3E3FFEE1A6DFD9700BE9DF9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E3FFED1A6DFD9700BE9DF9 /* AdSupport.framework */; };
+		C3E3FFF01A6DFD9E00BE9DF9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E3FFEF1A6DFD9E00BE9DF9 /* AVFoundation.framework */; };
+		C3E3FFF21A6DFDA600BE9DF9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E3FFF11A6DFDA600BE9DF9 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3CE05551AA70D6700841E21 /* ApvAdKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApvAdKit.framework; path = ../../AppVador/AdKitSample_iOS/SDK/ApvAdKit.framework; sourceTree = "<group>"; };
 		C3E3FFB71A6DF57700BE9DF9 /* popupTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popupTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E3FFBB1A6DF57700BE9DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3E3FFBC1A6DF57700BE9DF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,17 @@
 		C3E3FFD01A6DF57800BE9DF9 /* popupTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popupTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E3FFD51A6DF57800BE9DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3E3FFD61A6DF57800BE9DF9 /* popupTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popupTestTests.m; sourceTree = "<group>"; };
+		C3E3FFE01A6DF65F00BE9DF9 /* MJPopupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPopupBackgroundView.h; sourceTree = "<group>"; };
+		C3E3FFE11A6DF65F00BE9DF9 /* MJPopupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPopupBackgroundView.m; sourceTree = "<group>"; };
+		C3E3FFE21A6DF65F00BE9DF9 /* UIViewController+MJPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJPopupViewController.h"; sourceTree = "<group>"; };
+		C3E3FFE31A6DF65F00BE9DF9 /* UIViewController+MJPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJPopupViewController.m"; sourceTree = "<group>"; };
+		C3E3FFE61A6DF6F200BE9DF9 /* sample.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sample.xib; sourceTree = "<group>"; };
+		C3E3FFE81A6DF79A00BE9DF9 /* PopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController.m; sourceTree = "<group>"; };
+		C3E3FFEA1A6DF7AC00BE9DF9 /* PopupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupViewController.h; sourceTree = "<group>"; };
+		C3E3FFEB1A6DFD9000BE9DF9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C3E3FFED1A6DFD9700BE9DF9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C3E3FFEF1A6DFD9E00BE9DF9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C3E3FFF11A6DFDA600BE9DF9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CE05561AA70D6700841E21 /* ApvAdKit.framework in Frameworks */,
+				C3E3FFF21A6DFDA600BE9DF9 /* CoreData.framework in Frameworks */,
+				C3E3FFF01A6DFD9E00BE9DF9 /* AVFoundation.framework in Frameworks */,
+				C3E3FFEE1A6DFD9700BE9DF9 /* AdSupport.framework in Frameworks */,
+				C3E3FFEC1A6DFD9000BE9DF9 /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,11 @@
 		C3E3FFAE1A6DF57700BE9DF9 = {
 			isa = PBXGroup;
 			children = (
+				C3CE05551AA70D6700841E21 /* ApvAdKit.framework */,
+				C3E3FFF11A6DFDA600BE9DF9 /* CoreData.framework */,
+				C3E3FFEF1A6DFD9E00BE9DF9 /* AVFoundation.framework */,
+				C3E3FFED1A6DFD9700BE9DF9 /* AdSupport.framework */,
+				C3E3FFEB1A6DFD9000BE9DF9 /* CoreTelephony.framework */,
 				C3E3FFB91A6DF57700BE9DF9 /* popupTest */,
 				C3E3FFD31A6DF57800BE9DF9 /* popupTestTests */,
 				C3E3FFB81A6DF57700BE9DF9 /* Products */,
@@ -83,8 +114,15 @@
 			children = (
 				C3E3FFBE1A6DF57700BE9DF9 /* AppDelegate.h */,
 				C3E3FFBF1A6DF57700BE9DF9 /* AppDelegate.m */,
+				C3E3FFE01A6DF65F00BE9DF9 /* MJPopupBackgroundView.h */,
+				C3E3FFE11A6DF65F00BE9DF9 /* MJPopupBackgroundView.m */,
+				C3E3FFE21A6DF65F00BE9DF9 /* UIViewController+MJPopupViewController.h */,
+				C3E3FFE31A6DF65F00BE9DF9 /* UIViewController+MJPopupViewController.m */,
 				C3E3FFC11A6DF57700BE9DF9 /* ViewController.h */,
 				C3E3FFC21A6DF57700BE9DF9 /* ViewController.m */,
+				C3E3FFEA1A6DF7AC00BE9DF9 /* PopupViewController.h */,
+				C3E3FFE81A6DF79A00BE9DF9 /* PopupViewController.m */,
+				C3E3FFE61A6DF6F200BE9DF9 /* sample.xib */,
 				C3E3FFC41A6DF57700BE9DF9 /* Main.storyboard */,
 				C3E3FFC71A6DF57700BE9DF9 /* Images.xcassets */,
 				C3E3FFC91A6DF57700BE9DF9 /* LaunchScreen.xib */,
@@ -200,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3E3FFC61A6DF57700BE9DF9 /* Main.storyboard in Resources */,
+				C3E3FFE71A6DF6F200BE9DF9 /* sample.xib in Resources */,
 				C3E3FFCB1A6DF57700BE9DF9 /* LaunchScreen.xib in Resources */,
 				C3E3FFC81A6DF57700BE9DF9 /* Images.xcassets in Resources */,
 			);
@@ -219,6 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E3FFE41A6DF65F00BE9DF9 /* MJPopupBackgroundView.m in Sources */,
+				C3E3FFE91A6DF79A00BE9DF9 /* PopupViewController.m in Sources */,
+				C3E3FFE51A6DF65F00BE9DF9 /* UIViewController+MJPopupViewController.m in Sources */,
 				C3E3FFC31A6DF57700BE9DF9 /* ViewController.m in Sources */,
 				C3E3FFC01A6DF57700BE9DF9 /* AppDelegate.m in Sources */,
 				C3E3FFBD1A6DF57700BE9DF9 /* main.m in Sources */,
@@ -345,7 +387,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/m_takada/workios/AppVador/AdKitSample_iOS/SDK,
+				);
 				INFOPLIST_FILE = popupTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,7 +403,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/m_takada/workios/AppVador/AdKitSample_iOS/SDK,
+				);
 				INFOPLIST_FILE = popupTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +468,7 @@
 				C3E3FFDC1A6DF57800BE9DF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3E3FFDD1A6DF57800BE9DF9 /* Build configuration list for PBXNativeTarget "popupTestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +477,7 @@
 				C3E3FFDF1A6DF57800BE9DF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

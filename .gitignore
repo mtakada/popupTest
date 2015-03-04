@@ -1,0 +1,16 @@
+# Object files
+*.o
+/build
+
+# Document
+/Documentation*
+
+# Tools
+/tools/bin
+
+.DS_Store
+
+UserInterfaceState.xcuserstate
+xcuserdata
+Breakpoints.xcbkptlist
+

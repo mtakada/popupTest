@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)openPopup:(id)sender;
 
 @end
 
